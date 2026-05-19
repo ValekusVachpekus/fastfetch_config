@@ -1,12 +1,12 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "~/.config/fastfetch/logo_noarch.png",
+        "source": "~/.config/fastfetch/logo.png",
         "type": "kitty",
-        "height": 15,
+        "height": 17,
         "width": 33,
         "padding": {
-            "top": 3,
+            "top": 1,
             "left": 3
         }
     },
@@ -26,19 +26,19 @@
             "key": "│ ├",
             "keyColor": "#F2C4C4"
         },
-        // {
-        //     "type": "gpu",
-        //     "key": "│ ├󰍛",
-        //     "keyColor": "#F2C4C4"
-        // },
         {
-            "type": "memory",
+            "type": "gpu",
             "key": "│ ├󰍛",
             "keyColor": "#F2C4C4"
         },
         {
+            "type": "memory",
+            "key": "│ ├",
+            "keyColor": "#F2C4C4"
+        },
+        {
             "type": "disk",
-            "key": "└ └",
+            "key": "└ └",
             "keyColor": "#F2C4C4"
         },
         {
@@ -52,34 +52,33 @@
         },
         {
             "type": "os",
-            "key": " OS",
+            "key": " OS",
             "keyColor": "#eed49f"
         },
         {
             "type": "kernel",
-            "key": "│ ├",
+            "key": "│ ├",
             "keyColor": "#eed49f"
         },
         {
             "type": "shell",
-            "key": "└ └",
+            "key": "│ ├",
             "keyColor": "#eed49f"
         },
-        "break",
-        {
-            "type": "de",
-            "key": " DE",
-            "keyColor": "#F29BAB"
-        },
-        {
-            "type": "wmtheme",
-            "key": "│ ├󰉼",
-            "keyColor": "#F29BAB"
-        },
+        // {
+        //     "type": "de",
+        //     "key": " DE",
+        //     "keyColor": "#F29BAB"
+        // },
+        // {
+        //     "type": "wmtheme",
+        //     "key": "│ ├󰉼",
+        //     "keyColor": "#F29BAB"
+        // },
         {
             "type": "terminal",
             "key": "└ └",
-            "keyColor": "#F29BAB"
+            "keyColor": "#eed49f"
         },
         {
             "type": "custom",
